@@ -1,0 +1,325 @@
+﻿what am i
+who am i
+whoami
+whatami
+hostname
+pwd
+ls/home
+ls /home
+install sudo sanp
+sudo snap install package-name
+sudo snap install <app-name>
+sudo apt update
+sudo apt install snapd
+sudo systemctl enable --now snapd.socket
+snap version
+whatam i
+whatami
+sudo snap install whatami
+whatami
+whereami
+sudoinstallwhereami
+sudo install whereami
+sudo snap install whereami
+hostname
+pwd
+cd
+cd.
+cd .
+cd . .
+cd..
+cd\..
+cd ..
+dir
+mkdir 
+dir /p
+ls
+ls -lrth
+cd system
+ls -lrth
+ls -l
+cdexit
+ls /home
+man ls
+ls -s
+calendar2026
+year2026
+date
+month
+ls /home
+sudo useradd system
+sudo useradd box
+sudo useradd top
+ls -lrth
+top
+ls -lrth
+ls
+sudo useradd snap
+ls -lrth
+sudo mkdir /home
+sudo mkdir/box
+sudo /home box.txt
+pwd
+ls -lrth
+mkdir box
+ls -lrth
+mkdir school
+ls -lrth
+cd -note
+cd note
+ls -lrth
+cd ..
+pwd
+ls -lrth
+python3 --version
+pip3 install pandas numpy matplotlib
+sudo apt install python3-pip
+install pandas numpy matplotlib
+sudo apt update
+sudo apt install python3-pip
+pip3 install jupyterlab
+jupyter lab
+sudo apt install jupyter-core
+wget https://people.sc.fsu.edu/~jburkardt/data/csv/airtravel.csv
+cat airtravel.csv
+head airtravel.csv
+wc -l airtravel.csv
+grep "1958" airtravel.csv
+import pandas as pd
+df = pd.read_csv("airtravel.csv")
+print(df.head())
+print(df.describe())
+python3
+pip3 install pandas
+sudo apt update
+sudo apt install python3-venv python3-full
+mkdir data_project
+cd data_project
+python3 -m venv venv
+source venv/bin/activate
+pip install pandas
+python
+pwd
+ls
+find ~ -name "airtravel.csv"
+mv ~/Downloads/airtravel.csv ~/data_project/
+wget https://people.sc.fsu.edu/~jburkardt/data/csv/airtravel.csv
+ls
+python
+nano airtravel_analysis.py
+python airtravel_analysis.py
+ls
+airtravel_chart.png
+data_project
+cd..
+cd ..
+wsl -d Ubuntu-24.04
+sudo apt update
+sudo apt install -y build-essential git curl wget
+sudo apt update
+sudo apt install -y build-essential git curl wget
+sudo apt upgrade -y
+sudo apt install -y python3 python3-pip nodejs npm
+cd /mnt/c/Users/Anith/Downloads/playwirght\ demos
+code .
+airtravel_cleaned.csv
+ls -lrth
+pwd
+cd data_project
+airtravel_cleaned.csv
+ls
+cd ~/data_project
+source venv/bin/activate
+ls
+ls -lrth
+nano airtravel_analysis.py
+python airtravel_analysis.py
+pip install matplotlib
+python airtravel_analysis.py
+python
+nano airtravel_analysis.py
+print(df.columns)
+python
+import pandas as pd
+import matplotlib.pyplot as plt
+# Load data
+df = pd.read_csv("airtravel.csv")
+# Clean column names
+df.columns = df.columns.str.replace('"', '').str.strip()
+# Convert to numeric
+for col in ["1958", "1959", "1960"]:;     df[col] = pd.to_numeric(df[col], errors="coerce")
+# Add total passengers
+df["total_passengers"] = df["1958"] + df["1959"] + df["1960"]
+# Insights
+busiest_month = df.loc[df["total_passengers"].idxmax(), "Month"]
+print("Busiest Month:", busiest_month)
+print("\nYearly Averages:")
+print(df[["1958", "1959", "1960"]].mean())
+# Save cleaned data
+df.to_csv("airtravel_cleaned.csv", index=False)
+# Save summary
+df.describe().to_csv("airtravel_summary.csv")
+# Visualization
+plt.figure(figsize=(10,5))
+plt.plot(df["Month"], df["1958"], marker="o", label="1958")
+plt.plot(df["Month"], df["1959"], marker="o", label="1959")
+plt.plot(df["Month"], df["1960"], marker="o", label="1960")
+plt.title("Airline Passenger Trend (1958ΓÇô1960)")
+plt.xlabel("Month")
+plt.ylabel("Passengers")
+plt.legend() plt.xticks(rotation=45)
+plt.tight_layout() plt.savefig("airtravel_chart.png")
+print("\nProject completed successfully!")
+# ≡ƒôè Airline Passenger Data Analysis (1958ΓÇô1960)
+## ≡ƒôî Project Overview
+This project analyzes historical airline passenger data from 1958 to 1960 using Python.  
+It identifies trends, compares yearly growth, and visualizes passenger traffic.
+---
+## ≡ƒ¢á Tools Used
+- Python
+- Pandas
+- Matplotlib
+---
+## ≡ƒôê Key Insights
+- Identified the busiest travel month
+- Compared passenger growth across 3 years
+- Created time-series visualization
+---
+## ≡ƒôè Output Files
+- Cleaned dataset
+- Summary statistics
+- Trend chart (PNG)
+---
+## ≡ƒÜÇ How to Run
+```bash
+pip install -r requirements.txt
+python airtravel_analysis.py
+wsl -d Ubuntu-24.04 -- bash -lc "which node; node -v"
+
+cd /mnt/c/Users/Anith/Downloads/playwirght\ demos
+code .
+wsl -d Ubuntu-24.04 -- bash -lc "which node; node -v"
+ls -lrth
+cd school
+ls
+ls - lrth
+touchfile testfile.txt
+touch testfile.txt
+ls
+edit testfile.txt
+cat testfile.txt
+ls
+vim testfile.txt
+ls -lrth
+man ls
+cat > testfile2.txt
+ls -lrth
+man touch
+whoami
+hostname
+pwd
+cd
+sudo install sql
+sudo mysql
+sudo apt update
+sudo apt install mysql-server -y
+sudo systemctl status mysql
+sudo mysql_secure_installation
+sudo mysql
+sudo sql
+sudo startsql
+sudo start sql
+sudo mysql
+mysql
+sudo mysql;
+mysql
+sudo mysql
+echo$home;
+echo $home;
+echo "my computer";
+echo $HOME;
+echo $USER;
+echo $SHELL;
+echo $PATH;
+echo $PYTHON3;
+echo '#!/bin/bash' > ~/my_script.sh
+echo 'echo "Hello from my script!"' >> ~/my_script.sh
+chmod +x ~/my_script.sh    # make it executable
+ls -lrth
+my_script.sh
+~/my_script.sh
+edit my_script.sh
+nano my_script.sh
+which -a python3
+command -v python3
+type -a python3
+/usr/bin/python3 --version
+/usr/local/bin/python3 --version
+which -a python3
+# macOS/Linux
+cd ~/Documents
+mkdir pip-practice
+cd pip-practice
+# Windows CMD
+cd %USERPROFILE%\Documents
+mkdir pip-practice
+cd pip-practice
+# Windows PowerShell
+cd ~\Documents
+mkdir pip-practice
+cd pip-practice
+CD ..
+CD ;
+ls -l
+cd';
+
+;
+
+cd..
+ls -lrth
+cd \ root
+help cd
+cd ~
+ls -lrth
+rmdir pip-practice
+cd pip-practice
+ls -lrth
+rmdir pip-practice
+cd / pip-practice
+cd pip-practice
+cd ~
+cd pip-practice
+rmdir pip-practice
+cd ~
+ls
+l -lrth
+cd pip-practice
+ls -lrth
+cd ~
+l-lrth
+l -lrth
+cd pip-practice
+cd ~/Documents
+cd ~
+dir
+ls
+ls -l
+cd pip-practice
+ls -l
+cd ~
+ls -l
+cd ..
+ls -l
+ls -lrth
+cd system
+ls -lrth
+cd ;
+cd ..
+cd ~\Documents
+cd
+pip install requests httpx python-dotenv
+Sudo mysql
+sudo mysql
+Sudo mysql
+sudo mysql
+pytest --version
