@@ -17,10 +17,41 @@ linux-practice-portfolio/
 │   ├── testfile.txt              # File creation & editing practice
 │   └── testfile2.txt             # Text manipulation practice
 ├── sql-course/
-│   └── SQL_Basics_and_Advanced.ipynb  # SQL course: basics → advanced + DAX-to-SQL (194 cells)
+│   ├── SQL_Basics_and_Advanced.ipynb  # SQL basics → advanced + DAX-to-SQL (194 cells)
+│   ├── Flash_Project_Employee_Analytics.ipynb  # SQL capstone: employee analytics dashboard
+│   ├── flash_project.md          # Project summary and learning goals
+│   └── README.md                 # SQL course portfolio overview
 ├── bash_history_reference.txt    # Linux commands practiced (reference)
 └── README.md
 ```
+
+---
+
+## 🔗 Featured SQL Projects
+
+### 1) SQL Basics and Advanced
+A hands-on SQL learning notebook covering fundamentals through advanced topics, including:
+- SELECT, WHERE, JOINs, GROUP BY, HAVING
+- subqueries, CTEs, window functions
+- JSON/VARIANT, recursive queries, and DAX-to-SQL translations
+
+View it here: [SQL_Basics_and_Advanced.ipynb](sql-course/SQL_Basics_and_Advanced.ipynb)
+
+### 2) SQL Flash Project: Employee Analytics
+A capstone project focused on employee performance and department analysis using SQL.
+This project demonstrates:
+- joins and data modeling
+- department-level aggregation
+- window functions for ranking
+- CASE WHEN salary tier analysis
+- business-style reporting queries
+
+View it here: [Flash_Project_Employee_Analytics.ipynb](sql-course/Flash_Project_Employee_Analytics.ipynb)
+
+### 3) Project Summary
+A short summary explaining the business scenario, learning goals, and next steps for the SQL capstone.
+
+View it here: [flash_project.md](sql-course/flash_project.md)
 
 ---
 
@@ -49,7 +80,7 @@ linux-practice-portfolio/
 - Basics → advanced: SELECT, JOINs, GROUP BY/HAVING, subqueries, CTEs, window functions
 - Expert: recursive CTEs, PIVOT/UNPIVOT, JSON/VARIANT, Delta Lake time travel, views
 - DAX-to-SQL translations (CALCULATE, RANKX, TOPN, SAMEPERIODLASTYEAR, etc.)
-- See `sql-course/SQL_Basics_and_Advanced.ipynb` (194 cells)
+- See [sql-course/SQL_Basics_and_Advanced.ipynb](sql-course/SQL_Basics_and_Advanced.ipynb)
 
 ---
 
