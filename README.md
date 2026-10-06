@@ -16,6 +16,8 @@ linux-practice-portfolio/
 ├── school/
 │   ├── testfile.txt              # File creation & editing practice
 │   └── testfile2.txt             # Text manipulation practice
+├── sql-course/
+│   └── SQL_Basics_and_Advanced.ipynb  # SQL course: basics → advanced + DAX-to-SQL (194 cells)
 ├── bash_history_reference.txt    # Linux commands practiced (reference)
 └── README.md
 ```
@@ -42,6 +44,12 @@ linux-practice-portfolio/
 - MySQL server installation and configuration on Ubuntu
 - `sudo mysql` — Database administration
 - `mysql_secure_installation` — Security hardening
+
+### SQL (Databricks)
+- Basics → advanced: SELECT, JOINs, GROUP BY/HAVING, subqueries, CTEs, window functions
+- Expert: recursive CTEs, PIVOT/UNPIVOT, JSON/VARIANT, Delta Lake time travel, views
+- DAX-to-SQL translations (CALCULATE, RANKX, TOPN, SAMEPERIODLASTYEAR, etc.)
+- See `sql-course/SQL_Basics_and_Advanced.ipynb` (194 cells)
 
 ---
 
